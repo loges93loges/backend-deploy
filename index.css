@@ -1,0 +1,100 @@
+#certificate{
+    width: 780px;
+    height: 550px;
+    border: 7px double #21307D;
+    position: relative;
+    background-color: #fff;
+    margin: 0 auto;
+    
+    text-align: center;
+}
+.ceap{
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 100px 100px 0 0;
+border-color: #000000 transparent transparent transparent;
+   }
+      .name{
+    font-size: 36px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+border-bottom: 2PX solid black;
+    display: inline;
+}
+.course{
+    font-size: 24px;
+    border: none;
+    margin-top: 15px;
+
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+p{
+margin-top: -10px;
+
+font-size: 18px;
+}
+body{
+    color: rgb(0, 0, 0);
+    word-spacing: 3px;
+}
+h1{
+    margin-bottom: 45px;
+}
+.img{
+    opacity: .2;
+    position: absolute;
+    margin-left: -90px;
+}
+h3{
+    position: absolute;
+    margin-left: 630px;
+    margin-top: 45px;
+    text-decoration: overline;
+}
+h4{
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.link{
+    position: absolute;
+    position: absolute;
+    margin-left: -355px;
+    margin-top: 50px;
+    text-decoration: none;
+    font-size: 18px;
+}
+button{
+    margin-top: 50px;
+    margin-left: 490px;
+    outline: none;
+    padding: 10px;
+    border-radius: 20px;
+    background: rgb(102, 102, 179);
+    font-size: 15px;
+    transition: 0.2s ease;
+}
+button:hover{
+    transform: scale(0.9);
+    
+}
+#standard{
+    font-size: 22px;
+    
+}
+.date{
+    font-size: 20px;
+}
+.rank{
+    font-size: 22px;
+}
+.curve{
+position: absolute;
+margin-left: -201px;
+margin-top: -1px;
+width: 200px;
+height: 200px;
+}

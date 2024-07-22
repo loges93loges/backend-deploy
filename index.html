@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificate Generator</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="certificate">
+        <img class="curve" src="Nachiar1.png" alt="images">
+        <img class="img" src="n.png" alt="image" width="550px">
+        <img src="head.jpg" alt="Image" width="380px" height="130px">
+        <h1>Certificate of Appreaction</h1>
+        <p>This is to certify that</p>
+        <p class="name" id="cert-name">Name</p><br><br><br>
+        <p>
+        <span>of class </span><span id="standard">Standard</span>
+        <span> has participated in the</span></P>
+        <p class="course" id="cert-course">Course Name</p>
+       <p>
+        <span class="date" id="cert-date">Date</span>
+        <span> and has been Awarded with</span>
+        <span class="rank">Ranking</span></P>
+        <h3>Principal</h3>
+        <h4>Credential ID : ntwsxx<span id="serial">yyy</span><span class="credit"></span></h4>
+<a class="link" href="www.nachiartws.com">www.nachiartws.com</a>
+    </div>
+    <button onclick="generateCertificate()"><strong>Generate Certificate</strong></button>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.4/jspdf.min.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
