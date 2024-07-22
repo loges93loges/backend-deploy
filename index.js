@@ -1,4 +1,5 @@
 function generateCertificate() {
+    
     const name = prompt('Enter the name:');
     const course = prompt('Enter the course:');
     const date = prompt('Enter the date:');
