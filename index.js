@@ -2,7 +2,7 @@ function generateCertificate() {
     const name = prompt('Enter the name:');
     const course = prompt('Enter the course:');
     const date = prompt('Enter the date:');
-    const standard = prompt('mention the:');
+    const standard = prompt('Enter the standard:');
 
 
     document.getElementById('cert-name').textContent = name;
